@@ -1,0 +1,76 @@
+/* div {
+    text-align: center; */
+/* } */
+li{
+    padding: 5px;
+    list-style-type: none;
+}
+a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color:rgb(144, 143, 156);
+    text-decoration: none;
+}a:hover{
+    border: 2px solid yellow;
+    color: white;
+    background-color: rgb(21, 66, 163);
+}
+
+#matrix1,
+#matrix2,
+#resultmatrix {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+    /* width :100%; */
+}
+
+#matrix1>input,
+#matrix2>input,
+#resultmatrix>input,#getinput1,#getinput2 {
+    border-radius: 10px;
+    border: 1px solid rgb(156, 143, 143);
+    text-align: center;
+    line-height: 1.5;
+    padding: 2px;
+    margin: 0px;
+    color: blue;
+}#getinput1,#getinput2{
+    width: 20%;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+button ,a{
+    background-color: rgb(156, 143, 143);
+    color: white;
+    border: 1px solid rgb(163, 49, 49);
+    border-radius: 0px 10px 0px 10px;
+}
+
+button:hover ,a:hover {
+    border: 2px solid yellow;
+    color: white;
+    background-color: rgb(84, 58, 202);
+}
+li{
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+    padding: 5px;
+}
+#mult{
+    margin-left: 100px;
+}
+ 
